@@ -1,0 +1,66 @@
+body::-webkit-scrollbar {
+    width:20px;   
+   
+    border-radius: 20px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: yellow;
+    border-radius: 20px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: green;    /* color of the scroll thumb */
+    max-height: 20px;
+   border-radius: 20px; 
+   border: 1px solid gray;
+  }
+main{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: url('./src/cursor-verde.cur'), auto ;	
+
+    
+
+}
+.rectangle{
+    display: flex;
+    width: 450px;
+    height: 300px;
+    background-color: darkgreen;
+    justify-content: center;
+    align-items: center;
+}
+.diamond{
+    display: flex;
+    width: 210px;
+    height:210px;
+    background-color: yellow;
+    transform: rotate(45deg);
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 180px;
+    height: 180px;
+    border-radius:  50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+
+}
+.white{
+    width: 100%;
+    background-color: white;
+    transform: rotate(-45deg);
+    text-align: center;
+    font-size: 13px;
+}
+
+audio{
+    display: none;
+    
+}
